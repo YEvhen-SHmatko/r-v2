@@ -13,26 +13,31 @@ const contacts = {
   title: 'Contacts',
   data: [
     {
+      id: 'contact_1',
       icon: '/img/social-SVG-sprite.svg#smartphone',
       link: 'tel:380969148332',
       text: '+38 096 914 83 32',
     },
     {
+      id: 'contact_2',
       icon: '/img/social-SVG-sprite.svg#gmail',
       link: 'mailto:yevhen.shmatko@gmail.com',
       text: 'yevhen.shmatko@gmail.com',
     },
     {
+      id: 'contact_3',
       icon: '/img/social-SVG-sprite.svg#github',
       link: 'https://github.com/YEvhen-SHmatko',
       text: 'Github',
     },
     {
+      id: 'contact_4',
       icon: '/img/social-SVG-sprite.svg#linkedin',
       link: 'https://www.linkedin.com/in/yevhen-shmatko',
       text: 'Linkedin',
     },
     {
+      id: 'contact_5',
       icon: '/img/social-SVG-sprite.svg#telegram',
       link: 'https://t.me/YEvhenSHmatko',
       text: 'Telegram',
@@ -40,6 +45,145 @@ const contacts = {
   ],
 };
 
+const techSkills = {
+  title: 'Tech Skills',
+  data: [
+    {
+      id: 'techSkills_1',
+      title: 'Basic',
+      data: [
+        {
+          id: 'techSkills_1_1',
+          text: 'HTML5',
+        },
+        {
+          id: 'techSkills_1_2',
+          text: 'CSS3',
+        },
+        {
+          id: 'techSkills_1_3',
+          text: 'JavaScript (ES6+)',
+        },
+        {
+          id: 'techSkills_1_4',
+          text: 'TypeScript',
+        },
+      ],
+    },
+    {
+      id: 'techSkills_2',
+      title: 'JS frameworks',
+      data: [
+        {
+          id: 'techSkills_2_1',
+          text: 'Node.js',
+        },
+        {
+          id: 'techSkills_2_2',
+          text: 'React.js / React hooks',
+        }
+      ],
+    },
+    {
+      id: 'techSkills_3',
+      title: 'Styles components',
+      data: [
+        {
+          id: 'techSkills_3_1',
+          text: 'Materialize',
+        },
+        {
+          id: 'techSkills_3_2',
+          text: 'Material UI',
+        },
+        {
+          id: 'techSkills_3_3',
+          text: 'Bootstrap',
+        }
+      ],
+    },
+    {
+      id: 'techSkills_4',
+      title: 'Animation',
+      data: [
+        {
+          id: 'techSkills_4_1',
+          text: 'SVG animation',
+        },
+        {
+          id: 'techSkills_4_2',
+          text: 'css animation',
+        },
+      ],
+    },
+    {
+      id: 'techSkills_4',
+      title: 'Database',
+      data: [
+        {
+          id: 'techSkills_1_1',
+          text: 'HTML5',
+        },
+        {
+          id: 'techSkills_1_2',
+          text: 'CSS3',
+        },
+        {
+          id: 'techSkills_1_3',
+          text: 'JavaScript (ES6+)',
+        },
+        {
+          id: 'techSkills_1_4',
+          text: 'TypeScript',
+        },
+      ],
+    },
+    {
+      id: 'techSkills_4',
+      title: 'Animation',
+      data: [
+        {
+          id: 'techSkills_1_1',
+          text: 'HTML5',
+        },
+        {
+          id: 'techSkills_1_2',
+          text: 'CSS3',
+        },
+        {
+          id: 'techSkills_1_3',
+          text: 'JavaScript (ES6+)',
+        },
+        {
+          id: 'techSkills_1_4',
+          text: 'TypeScript',
+        },
+      ],
+    },
+    {
+      id: 'techSkills_4',
+      title: 'Animation',
+      data: [
+        {
+          id: 'techSkills_1_1',
+          text: 'HTML5',
+        },
+        {
+          id: 'techSkills_1_2',
+          text: 'CSS3',
+        },
+        {
+          id: 'techSkills_1_3',
+          text: 'JavaScript (ES6+)',
+        },
+        {
+          id: 'techSkills_1_4',
+          text: 'TypeScript',
+        },
+      ],
+    },
+  ],
+};
 const App = () => (
   <>
     <div className="container">
@@ -59,70 +203,15 @@ const App = () => (
           <ul className="aside__list aside__list-contacts">
             {contacts?.data?.length &&
               contacts.data.map(contact => (
-                <li className="aside__item" key=''>
+                <li className="aside__item" key={contact?.id}>
                   <svg className="aside__item-icon">
-                    <use xlinkHref="./img/social-SVG-sprite.svg#smartphone" />
+                    <use xlinkHref={contact?.icon} />
                   </svg>
-                  <a className="aside__item-link" href="tel:380969148332">
-                    +38 096 914 83 32
+                  <a className="aside__item-link" href={contact?.link}>
+                    {contact?.text}
                   </a>
                 </li>
               ))}
-            <li className="aside__item">
-              <svg className="aside__item-icon">
-                <use xlinkHref="./img/social-SVG-sprite.svg#smartphone" />
-              </svg>
-              <a className="aside__item-link" href="tel:380969148332">
-                +38 096 914 83 32
-              </a>
-            </li>
-            <li className="aside__item">
-              <svg className="aside__item-icon">
-                <use xlinkHref="./img/social-SVG-sprite.svg#gmail" />
-              </svg>
-              <a
-                className="aside__item-link"
-                href="mailto:yevhen.shmatko@gmail.com"
-              >
-                yevhen.shmatko@gmail.com
-              </a>
-            </li>
-            <li className="aside__item">
-              <svg className="aside__item-icon">
-                <use xlinkHref="./img/social-SVG-sprite.svg#github" />
-              </svg>
-              <a
-                target="blank"
-                className="aside__item-link"
-                href="https://github.com/YEvhen-SHmatko"
-              >
-                Github
-              </a>
-            </li>
-            <li className="aside__item">
-              <svg className="aside__item-icon">
-                <use xlinkHref="./img/social-SVG-sprite.svg#linkedin" />
-              </svg>
-              <a
-                target="blank"
-                className="aside__item-link"
-                href="https://www.linkedin.com/in/yevhen-shmatko"
-              >
-                Linkedin
-              </a>
-            </li>
-            <li className="aside__item">
-              <svg className="aside__item-icon">
-                <use xlinkHref="./img/social-SVG-sprite.svg#telegram" />
-              </svg>
-              <a
-                target="blank"
-                className="aside__item-link"
-                href="https://t.me/YEvhenSHmatko"
-              >
-                Telegram
-              </a>
-            </li>
           </ul>
         </div>
         <div className="aside__infoSection">
