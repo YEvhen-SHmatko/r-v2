@@ -165,6 +165,10 @@ const techSkills = {
           text: 'GIT',
         },
         {
+          id: 'techSkills_7_3',
+          text: 'Yarn',
+        },
+        {
           id: 'techSkills_7_4',
           text: 'Thunk',
         },
@@ -179,6 +183,32 @@ const techSkills = {
         {
           id: 'techSkills_7_7',
           text: 'TradingView',
+        },
+      ],
+    },
+    {
+      id: 'techSkills_8',
+      title: 'Tools',
+      data: [
+        {
+          id: 'techSkills_8_1',
+          text: 'VSCode',
+        },
+        {
+          id: 'techSkills_8_2',
+          text: 'Postman',
+        },
+        {
+          id: 'techSkills_8_3',
+          text: 'Figma',
+        },
+        {
+          id: 'techSkills_8_4',
+          text: 'Avocode',
+        },
+        {
+          id: 'techSkills_8_5',
+          text: 'Photoshop',
         },
       ],
     },
@@ -212,76 +242,110 @@ const softSkills = {
 };
 
 const aboutMe = {
-  position: 'Full-stack Developer',
+  position: 'Front-End(React) Developer',
   full_name: 'Yevhen Shmatko',
   description:
-    'Experience in developing web applications in JavaScript / HTML / CSS. There is also development experience using React.js and Node.js. I work with layouts in graphic programs such as Photoshop, Figma, Avocode. Basic knowledge of WordPress and installing it on a local server using Xampp. Basic knowledge of jQuery library. I have good analytical skills. Attentive to details, easy to learn, purposeful, teamwork, creativity and willingness to look at things from an unusual angle. The pursuit of continuous development.',
+    'I have good analytical skills. Attentive to detail, learning new information easily, commitment, teamwork, creativity and a willingness to look at things from an unusual angle. Striving for continuous development.',
+  // description:
+  // 'Experience in developing web applications in React / JavaScript / HTML / CSS. I also have experience in developing a server-side application in Node.js. I work with layouts in graphics programs: Photoshop, Figma, Avocode. I have good analytical skills. Attentive to detail, learning new information easily, commitment, teamwork, creativity and a willingness to look at things from an unusual angle. Striving for continuous development.',
 };
 
-const projects = {
-  title: 'Projects',
-  data: [
-    {
-      id: 'projects_1',
-      link: 'https://yevhen-shmatko-full-stack-developer.netlify.com/',
-      title: 'Resume',
-      technology: ['HTML5', 'CSS3', 'JS', 'TS', 'React', 'i18n'],
-    },
-    {
-      id: 'projects_2',
-      link: 'https://chacknorris-yevhen-shmatko.netlify.app/',
-      title: 'Chacknorris',
-      technology: [
-        'React',
-        'React hooks',
-        'Material UI',
-        'API - CHUCKNORRIS.IO',
-      ],
-    },
-    {
-      id: 'projects_3',
-      link: 'https://maxwillow.github.io/love_lodestone/login.html',
-      title: 'Love Lodestone',
-      technology: ['JS', 'HTML5', 'CSS3', 'Webpack', 'Scrum', 'RestAPI'],
-    },
-    {
-      id: 'projects_4',
-      link: 'https://yesh-timertodo.netlify.com/',
-      title: 'Todo timer',
-      technology: ['React', 'JS', 'HTML5', 'CSS3'],
-    },
-    {
-      id: 'projects_5',
-      link: 'https://yesh-phonebook.netlify.com/',
-      title: 'Phonebook',
-      technology: ['React', 'Redux', 'JS', 'HTML5', 'CSS3'],
-    },
-    {
-      id: 'projects_6',
-      link: 'https://yesh-bitmedia-labs.netlify.app/',
-      title: 'AppCo',
-      technology: ['React', 'Node', 'SQlite', 'HTML', 'SCSS', 'jQuery'],
-    },
-    {
-      id: 'projects_7',
-      link: 'https://yesh-find-movies.netlify.com/',
-      title: 'Movie finder',
-      technology: ['React', 'JS', 'HTML5', 'CSS3', 'API - THE MOVIE DB'],
-    },
-    {
-      id: 'projects_8',
-      link: 'https://yevhen-shmatko.github.io/goit-react-hw-03-image-finder/',
-      title: 'Image finder',
-      technology: ['React', 'JS', 'HTML5', 'CSS3', 'API - PIXABAY'],
-    },
-    {
-      id: 'projects_9',
-      link: 'https://yevhen-shmatko.github.io/html_css_project_team_B/build/',
-      title: 'GoITeens',
-      technology: ['HTML5', 'CSS3', 'JS', 'GULP', 'SCSS', 'Scrum'],
-    },
-  ],
-};
+// const projects = {
+//   title: 'Projects',
+//   data: [
+//     {
+//       id: 'projects_10',
+//       link: 'https://invio.app/',
+//       title: 'Invio',
+//       technology: ['React', 'Redux', 'Thunk', 'i18n', 'Websockets'],
+//     },
+//     {
+//       id: 'projects_11',
+//       link: 'https://testamex.com/',
+//       title: 'Testamex',
+//       technology: [
+//         'React',
+//         'Redux',
+//         'Saga',
+//         'i18n',
+//         'Websockets',
+//         'Treadingview',
+//       ],
+//     },
+//     {
+//       id: 'projects_12',
+//       link: 'https://betconix.com/',
+//       title: 'Betconix',
+//       technology: [
+//         'React',
+//         'Redux',
+//         'Saga',
+//         'i18n',
+//         'Websockets',
+//         'Treadingview',
+//       ],
+//     },
+//     // {
+//     //   id: 'projects_1',
+//     //   link: 'https://yevhen-shmatko-full-stack-developer.netlify.com/',
+//     //   title: 'Resume',
+//     //   technology: ['HTML5', 'CSS3', 'JS', 'TS', 'React', 'i18n'],
+//     // },
+//     {
+//       id: 'projects_2',
+//       link: 'https://chacknorris-yevhen-shmatko.netlify.app/',
+//       title: 'Chacknorris',
+//       technology: [
+//         'React',
+//         'React hooks',
+//         'Material UI',
+//         'API - CHUCKNORRIS.IO',
+//       ],
+//     },
+//     {
+//       id: 'projects_3',
+//       link: 'https://maxwillow.github.io/love_lodestone/login.html',
+//       title: 'Love Lodestone',
+//       technology: ['JS', 'HTML5', 'CSS3', 'Webpack', 'Scrum', 'RestAPI'],
+//     },
+//     {
+//       id: 'projects_4',
+//       link: 'https://yesh-timertodo.netlify.com/',
+//       title: 'Todo timer',
+//       technology: ['React', 'JS', 'HTML5', 'CSS3'],
+//     },
+//     {
+//       id: 'projects_5',
+//       link: 'https://yesh-phonebook.netlify.com/',
+//       title: 'Phonebook',
+//       technology: ['React', 'Redux', 'JS', 'HTML5', 'CSS3'],
+//     },
+//     {
+//       id: 'projects_6',
+//       link: 'https://yesh-bitmedia-labs.netlify.app/',
+//       title: 'AppCo',
+//       technology: ['React', 'Node', 'SQlite', 'HTML', 'SCSS', 'jQuery'],
+//     },
+//     {
+//       id: 'projects_7',
+//       link: 'https://yesh-find-movies.netlify.com/',
+//       title: 'Movie finder',
+//       technology: ['React', 'JS', 'HTML5', 'CSS3', 'API - THE MOVIE DB'],
+//     },
+//     {
+//       id: 'projects_8',
+//       link: 'https://yevhen-shmatko.github.io/goit-react-hw-03-image-finder/',
+//       title: 'Image finder',
+//       technology: ['React', 'JS', 'HTML5', 'CSS3', 'API - PIXABAY'],
+//     },
+//     {
+//       id: 'projects_9',
+//       link: 'https://yevhen-shmatko.github.io/html_css_project_team_B/build/',
+//       title: 'GoITeens',
+//       technology: ['HTML5', 'CSS3', 'JS', 'GULP', 'SCSS', 'Scrum'],
+//     },
+//   ],
+// };
 const currentWorkTime: number =
   (new Date().getTime() - new Date('Mon Aug 10 2020').getTime()) /
   (1000 * 60 * 60 * 24 * 30);
@@ -293,11 +357,19 @@ const workExperience = {
       id: 'workExperience_5',
       position: 'Front-End(React) Developer / Team Lead',
       company: 'Merehead',
-      company_link: '',
+      company_link: 'https://merehead.com/',
       period: 'August 2020 to now',
       time: `${Math.ceil(currentWorkTime)} month`,
       country: 'Ukraine',
       data: [
+        {
+          id: 'workExperience_1_0',
+          text: 'Development team management',
+        },
+        {
+          id: 'workExperience_1_1',
+          text: 'Choosing a technology stack based on the project requirements',
+        },
         {
           id: 'workExperience_1_2',
           text: 'Adding new functionality to the site.',
@@ -307,8 +379,20 @@ const workExperience = {
           text: 'Сreation of trading platforms.',
         },
         {
+          id: 'workExperience_1_3',
+          text: 'Creation of marketplaces.',
+        },
+        {
+          id: 'workExperience_1_3',
+          text: 'Сreation social networking.',
+        },
+        {
           id: 'workExperience_1_4',
-          text: 'Legacy Code Support.',
+          text: 'Optimization and restructuring legacy code.',
+        },
+        {
+          id: 'workExperience_1_4',
+          text: 'Bug fixes.',
         },
       ],
     },
@@ -316,7 +400,7 @@ const workExperience = {
       id: 'workExperience_4',
       position: 'Front-End(React) Developer',
       company: 'Merehead',
-      company_link: '',
+      company_link: 'https://merehead.com/',
       period: 'June 2020 - August 2020',
       time: '2 month',
       country: 'Ukraine',
@@ -332,6 +416,10 @@ const workExperience = {
         {
           id: 'workExperience_1_4',
           text: 'Legacy Code Support.',
+        },
+        {
+          id: 'workExperience_1_4',
+          text: 'Bug fixes.',
         },
       ],
     },
@@ -366,6 +454,7 @@ const workExperience = {
       id: 'workExperience_2',
       position: 'Lead System Administrator',
       company: 'BAYADERA GROUP',
+      company_link: 'https://bayaderagroup.com/',
       period: 'March 2018 - August 2019',
       time: '1 year 5 month',
       country: 'Ukraine',
@@ -394,6 +483,7 @@ const workExperience = {
       id: 'workExperience_1',
       position: 'System Administrator',
       company: 'BAYADERA GROUP',
+      company_link: 'https://bayaderagroup.com/',
       period: 'June 2016 - March 2018',
       time: '1 year 10 month',
       country: 'Ukraine',
@@ -432,6 +522,7 @@ const education = {
     {
       id: 'education_2',
       title: 'GoIT',
+      link: 'https://goit.ua/',
       subtitle: 'Full Stack Developer',
       period: 'March 2019 - March 2020',
       country: 'Ukraine',
@@ -439,12 +530,14 @@ const education = {
     {
       id: 'education_1',
       title: 'Kiev College of Computer Technology and Economics',
+      link: 'http://ccte.nau.edu.ua/',
       subtitle: 'Design engineer, radio computing devices',
       period: 'Septermber 2009 - June 2011',
       country: 'Ukraine',
     },
   ],
 };
+
 const App = () => (
   <>
     <div className="container">
@@ -512,7 +605,45 @@ const App = () => (
           <h1 className="aboutMe__name">{aboutMe.full_name}</h1>
           <p className="aboutMe__description">{aboutMe.description}</p>
         </div>
-        <div className="projects__section">
+
+        <div className="experience__section">
+          <h3 className="main__title">{workExperience.title}</h3>
+          {!!workExperience?.data?.length &&
+            workExperience.data.map(work => (
+              <div key={work.id} className="company__section">
+                <h4 className="experience__title">
+                  {work.position}
+                  {work?.company_link ? (
+                    <a
+                      className="otherColor"
+                      href={work.company_link}
+                      target="blank"
+                    >
+                      {work.company}
+                    </a>
+                  ) : (
+                    <span className="otherColor">{work.company}</span>
+                  )}
+                </h4>
+                <span className="experience__date">
+                  {work.period}
+                  <span className="blackColor">|</span>
+                  {work.time}
+                  <span className="blackColor">|</span>
+                  {work.country}
+                </span>
+                <ul className="experience__list">
+                  {work.data.length &&
+                    work.data.map(expirience => (
+                      <li key={expirience.id} className="experience__item">
+                        {expirience.text}
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            ))}
+        </div>
+        {/* <div className="projects__section">
           <h3 className="main__title">{projects.title}</h3>
           <ul className="main__list main__list-projects">
             {projects?.data?.length &&
@@ -522,7 +653,7 @@ const App = () => (
                   <a
                     target="blank"
                     className="project__link"
-                    href="https://yevhen-shmatko-full-stack-developer.netlify.com/"
+                    href={project.link}
                   >
                     {project.title}
                   </a>
@@ -542,39 +673,19 @@ const App = () => (
                 </li>
               ))}
           </ul>
-        </div>
-        <div className="experience__section">
-          <h3 className="main__title">{workExperience.title}</h3>
-          {!!workExperience?.data?.length &&
-            workExperience.data.map(work => (
-              <div key={work.id} className="company__section">
-                <h4 className="experience__title">
-                  {work.position}
-                  <span className="otherColor">{work.company}</span>
-                </h4>
-                <span className="experience__date">
-                  {work.period}
-                  <span className="blackColor">|</span>
-                  {work.country}
-                </span>
-                <ul className="experience__list">
-                  {work.data.length &&
-                    work.data.map(expirience => (
-                      <li key={expirience.id} className="experience__item">
-                        {expirience.text}
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            ))}
-        </div>
+        </div> */}
         <div className="education__section">
           <h3 className="main__title">{education.title}</h3>
-
           {!!education?.data?.length &&
             education.data.map(ed => (
               <div key={ed.id} className="school__section">
-                <h4 className="education-title otherColor">{ed.title}</h4>
+                <a
+                  href={ed.link}
+                  className="education-title otherColor"
+                  target="blank"
+                >
+                  {ed.title}
+                </a>
                 <h5 className="education-position">{ed.subtitle}</h5>
                 <span className="education-date">
                   {ed.period}
