@@ -10,7 +10,7 @@ import * as React from 'react';
 // ];
 
 const contacts = {
-  title: 'Contacts',
+  title: 'Контакти',
   data: [
     {
       id: 'contact_1',
@@ -46,11 +46,11 @@ const contacts = {
 };
 
 const techSkills = {
-  title: 'Tech Skills',
+  title: 'Технічні навички',
   data: [
     {
       id: 'techSkills_1',
-      title: 'Basic',
+      title: 'ОСНОВНІ',
       data: [
         {
           id: 'techSkills_1_1',
@@ -72,7 +72,7 @@ const techSkills = {
     },
     {
       id: 'techSkills_2',
-      title: 'JS frameworks',
+      title: 'JavaScript ',
       data: [
         {
           id: 'techSkills_2_1',
@@ -86,7 +86,7 @@ const techSkills = {
     },
     {
       id: 'techSkills_3',
-      title: 'Styles components',
+      title: 'Бібліотеки стилів',
       data: [
         {
           id: 'techSkills_3_1',
@@ -104,21 +104,21 @@ const techSkills = {
     },
     {
       id: 'techSkills_4',
-      title: 'Animation',
+      title: 'Анімації',
       data: [
         {
           id: 'techSkills_4_1',
-          text: 'SVG animation',
+          text: 'SVG анімації',
         },
         {
           id: 'techSkills_4_2',
-          text: 'css animation',
+          text: 'css анімації',
         },
       ],
     },
     {
       id: 'techSkills_5',
-      title: 'Database',
+      title: 'Бази данних',
       data: [
         {
           id: 'techSkills_5_1',
@@ -136,7 +136,7 @@ const techSkills = {
     },
     {
       id: 'techSkills_6',
-      title: 'MAPS',
+      title: 'Мапа',
       data: [
         {
           id: 'techSkills_6_1',
@@ -150,7 +150,7 @@ const techSkills = {
     },
     {
       id: 'techSkills_7',
-      title: 'Others technology',
+      title: 'Інші технології',
       data: [
         {
           id: 'techSkills_7_1',
@@ -186,7 +186,7 @@ const techSkills = {
 };
 
 const softSkills = {
-  title: 'Soft Skills',
+  title: 'Гнучкі навички',
   data: [
     {
       id: 'softSkills_1',
@@ -202,11 +202,11 @@ const softSkills = {
     },
     {
       id: 'softSkills_4',
-      title: 'Teamwork',
+      title: 'Робота в команді',
     },
     {
       id: 'softSkills_5',
-      title: 'TeamLead',
+      title: 'Управління командою',
     },
   ],
 };
