@@ -44,7 +44,7 @@ body {
 .aside__photo {
   width: 370px;
   height: 400px;
-  background-image: url("/img/photo.jpg");
+  background-image: url('/img/photo.jpg');
   background-size: 370px 530px;
 }
 /* --- --- */
@@ -89,7 +89,7 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
-.aside__list li{
+.aside__list li {
   line-height: 18px;
 }
 .aside__item {
@@ -100,10 +100,10 @@ body {
 }
 /* ----- main info ----- */
 .main {
-  padding: 70px;
+  padding: 56px;
 }
 .aboutMe__section {
-  margin-bottom: 55px;
+  margin-bottom: 30px;
 }
 .aboutMe__position {
   font-size: 18px;
@@ -119,7 +119,7 @@ body {
 }
 
 .projects__section {
-  margin-bottom: 55px;
+  margin-bottom: 30px;
 }
 .main__title {
   margin: 0;
@@ -171,7 +171,7 @@ body {
 }
 /* ----- */
 .experience__section {
-  margin-bottom: 55px;
+  margin-bottom: 30px;
 }
 .company__section {
   margin-top: 20px;
@@ -180,10 +180,10 @@ body {
   font-size: 16px;
   font-weight: 700;
 }
-.experience__title a{
+.experience__title a {
   margin-left: 6px;
 }
-.experience__title span{
+.experience__title span {
   margin-left: 6px;
 }
 .experience__date {
@@ -191,7 +191,7 @@ body {
   color: #a8a8a8;
   font-weight: 400;
 }
-.experience__date span{
+.experience__date span {
   margin: 0 6px;
 }
 .experience__list {
@@ -221,6 +221,6 @@ body {
   font-weight: 700;
   margin: 4px 0;
 }
-.education-date span{
+.education-date span {
   margin: 0 6px;
 }

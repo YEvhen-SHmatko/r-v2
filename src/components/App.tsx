@@ -86,7 +86,7 @@ const techSkills = {
     },
     {
       id: 'techSkills_3',
-      title: 'Styles components',
+      title: 'UI librarys',
       data: [
         {
           id: 'techSkills_3_1',
@@ -244,10 +244,9 @@ const softSkills = {
 const aboutMe = {
   position: 'Front-End(React) Developer',
   full_name: 'Yevhen Shmatko',
-  description:
-    'I have good analytical skills. Attentive to detail, learning new information easily, commitment, teamwork, creativity and a willingness to look at things from an unusual angle. Striving for continuous development.',
-  // description:
-  // 'Experience in developing web applications in React / JavaScript / HTML / CSS. I also have experience in developing a server-side application in Node.js. I work with layouts in graphics programs: Photoshop, Figma, Avocode. I have good analytical skills. Attentive to detail, learning new information easily, commitment, teamwork, creativity and a willingness to look at things from an unusual angle. Striving for continuous development.',
+  description: `I have good analytical skills.I am attentive to detail, learning new information easily, commitmently. I like teamwork, creativity work and a to look at things from an unusual angle. I want continuous development and  and challenge new heights.`,
+  // description: 'I have good analytical skills. Attentive to detail, learning new information easily, commitment, teamwork, creativity and a willingness to look at things from an unusual angle. Striving for continuous development.',
+  // description: 'Experience in developing web applications in React / JavaScript / HTML / CSS. I also have experience in developing a server-side application in Node.js. I work with layouts in graphics programs: Photoshop, Figma, Avocode. I have good analytical skills. Attentive to detail, learning new information easily, commitment, teamwork, creativity and a willingness to look at things from an unusual angle. Striving for continuous development.',
 };
 
 // const projects = {
@@ -347,52 +346,59 @@ const aboutMe = {
 //   ],
 // };
 const currentWorkTime: number =
-  (new Date().getTime() - new Date('Mon Aug 10 2020').getTime()) /
+  (new Date().getTime() - new Date('2021-01-24').getTime()) /
   (1000 * 60 * 60 * 24 * 30);
 
 const workExperience = {
   title: 'Work Experience',
   data: [
     {
-      id: 'workExperience_5',
-      position: 'Front-End(React) Developer / Team Lead',
-      company: 'Merehead',
-      company_link: 'https://merehead.com/',
-      period: 'August 2020 to now',
+      id: 'workExperience_6',
+      position: 'Front-End(React) Developer',
+      company: 'ТОВ "MEGASOFT"',
+      company_link: '',
+      period: 'January 2021 to now',
       time: `${Math.ceil(currentWorkTime)} month`,
       country: 'Ukraine',
       data: [
         {
-          id: 'workExperience_1_0',
+          id: 'workExperience_6_1',
+          text: 'Adding new functionality to the SRM platform. Optimization and restructuring of legacy code.',
+        },
+        {
+          id: 'workExperience_6_2',
+          text: 'Creating a library of user interface components',
+        },
+        {
+          id: 'workExperience_6_2',
+          text: 'Сreation SRM platform',
+        },
+      ],
+    },
+    {
+      id: 'workExperience_5',
+      position: 'Front-End(React) Developer / Team Lead',
+      company: 'Merehead',
+      company_link: 'https://merehead.com/',
+      period: 'August 2020 - January 2021',
+      time: `5 month`,
+      country: 'Ukraine',
+      data: [
+        {
+          id: 'workExperience_5_1',
           text: 'Development team management',
         },
         {
-          id: 'workExperience_1_1',
+          id: 'workExperience_5_2',
           text: 'Choosing a technology stack based on the project requirements',
         },
         {
-          id: 'workExperience_1_2',
-          text: 'Adding new functionality to the site.',
+          id: 'workExperience_5_3',
+          text: 'Сreation of trading platforms, marketplaces, social networking.',
         },
         {
-          id: 'workExperience_1_3',
-          text: 'Сreation of trading platforms.',
-        },
-        {
-          id: 'workExperience_1_3',
-          text: 'Creation of marketplaces.',
-        },
-        {
-          id: 'workExperience_1_3',
-          text: 'Сreation social networking.',
-        },
-        {
-          id: 'workExperience_1_4',
-          text: 'Optimization and restructuring legacy code.',
-        },
-        {
-          id: 'workExperience_1_4',
-          text: 'Bug fixes.',
+          id: 'workExperience_5_4',
+          text: 'Adding new functionality to sites. Optimization and restructuring of legacy code.',
         },
       ],
     },
@@ -406,19 +412,19 @@ const workExperience = {
       country: 'Ukraine',
       data: [
         {
-          id: 'workExperience_1_2',
+          id: 'workExperience_4_1',
           text: 'Adding new functionality to the site.',
         },
         {
-          id: 'workExperience_1_3',
+          id: 'workExperience_4_2',
           text: 'Сreation of trading platforms.',
         },
         {
-          id: 'workExperience_1_4',
+          id: 'workExperience_4_3',
           text: 'Legacy Code Support.',
         },
         {
-          id: 'workExperience_1_4',
+          id: 'workExperience_4_4',
           text: 'Bug fixes.',
         },
       ],
@@ -445,8 +451,7 @@ const workExperience = {
         },
         {
           id: 'workExperience_3_4',
-          text:
-            'Participating in the development of an application for a restaurant or cafe.',
+          text: 'Participating in the development of an application for a restaurant or cafe.',
         },
       ],
     },
@@ -461,8 +466,7 @@ const workExperience = {
       data: [
         {
           id: 'workExperience_2_1',
-          text:
-            'Development of JavaScript scripts for implementing OSM maps in 1C.',
+          text: 'Development of JavaScript scripts for implementing OSM maps in 1C.',
         },
         {
           id: 'workExperience_2_2',
@@ -474,8 +478,7 @@ const workExperience = {
         },
         {
           id: 'workExperience_2_4',
-          text:
-            'Setup and administration of server operating systems of the Windows, Linux family.',
+          text: 'Setup and administration of server operating systems of the Windows, Linux family.',
         },
       ],
     },
@@ -494,22 +497,11 @@ const workExperience = {
         },
         {
           id: 'workExperience_1_2',
-          text:
-            'Setup and administration of server operating systems of the Windows, Linux family.',
+          text: 'Administration of server operating systems Windows, Linux.',
         },
         {
           id: 'workExperience_1_3',
-          text:
-            'Maintenance of a local network and administration of network equipment and IP telephony.',
-        },
-        {
-          id: 'workExperience_1_4',
-          text:
-            'Installations and settings of desktop operating systems of the Windows and Linux family.',
-        },
-        {
-          id: 'workExperience_1_5',
-          text: 'Implementation of access control system.',
+          text: 'Maintenance of network equipment and IP-telephony.',
         },
       ],
     },
@@ -589,10 +581,13 @@ const App = () => (
         </div>
         <div className="aside__infoSection">
           <h3 className="aside__title">{softSkills.title}</h3>
-          <ul className="aside__list">
+          <ul
+            className="aside__list"
+            style={{ display: 'flex', flexWrap: 'wrap' }}
+          >
             {softSkills?.data?.length &&
               softSkills.data?.map(skill => (
-                <li key={skill?.id}>
+                <li key={skill?.id} style={{ width: '50%' }}>
                   <span className="aside__item-title">{skill.title}</span>
                 </li>
               ))}
